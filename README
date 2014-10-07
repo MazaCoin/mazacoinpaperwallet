@@ -1,12 +1,64 @@
 
-Below are the Readme docs from the original sources. The Mazacoin version of this is under heavy development.
-We will make this code as verifiable as the original sources in an upcoming release. 
-*************************************************************************************************************
+Mazacoin PaperWallet is derived from the sources listed below. 
+Mazacoin Conversions by Tom Donaldson (owlhooter) 
+Additional modifications by Rob Nelson (guruvan) 
+
+Portions Copyright 2014, Rob Nelson & Tom Donaldson
+Additional Portions Copyright by others, see Below
+
+****************************************************
+****************************************************
+*** PLEASE VERIFY THE INTEGRITY OF THIS DOWNLOAD ***
+*** --- BEFORE --- sending funds to paperwallets ***
+***                                              ***
+*** We highly recommend using this software on a ***
+*** computer that is OFFLINE, and stays OFFLINE  ***
+*** Instructions are contained within incl html. ***
+****************************************************
+****************************************************
+
+
+*** HOW TO VERIFY THE AUTHENTICITY OF THIS DOWNLOAD ***
+
+After downloading the ZIP package for this generator, you should find a file 
+named generate-wallet.html.sig which you can use to:
+
+* Verify that generate-wallet.html hasn't been tampered with, and
+* Get proof that it really was authored the Mazacoin Development Team
+  -latest signer from Dev Team is Rob Nelson (guruvan@maza.club)
+  - both README and generatewallet.html have been signed. Ensure
+  - both carry the same signature
+
+  key and fingerprint should be confirmed, find these at the Mazacoin Web,
+  https://mazacoin.org/download or https://maza.club/gpg
+
+  You may also search keyservers - Rob Nelson's gpg key B0A5D9EE, is signed also
+  by Rob Nelson (guruvan@shastafareye.net) DEA12CFD
+  by Rob Nelson (rob@guruvan.net)          A54E87F2
+  
+For example, if you have GPG installed, you should be able cd to the appropriate 
+directory and type in these two commands:
+
+  gpg --recv-key B0A5D9EE
+  gpg --verify --with-fingerprint generate-wallet.html.sig generate-wallet.html 
+  gpg --verify --with-fingerprint README.sig README
+
+And then verify the resulting signature's fingerprint against Rob Nelson's
+published fingerprint at http://mazacoin.org or https://maza.club/sigs
+Optionally, verify at http://pgp.mit.edu or other keyserver that the 
+included GPG key B0A5D9EE is signed by Rob Nelson's other keys. 
+
+If you get warnings like "This key is not certified, there is no indication that
+the key belongs to the owner" do not worry, this is normal.
 
 **** LOOKING FOR THE ZIP FILE TO DOWNLOAD? ************************************
 If you're on already at https://github.com/MazaCoin/mazacoinpaperwallet
 Then just look for the button that says "Download ZIP". Look to your right -->
 *******************************************************************************
+========================================================
+Below are the Readme docs from the original sources. 
+********************************************************
+
 
 *** bitcoinpaperwallet.com ***
 
@@ -78,6 +130,7 @@ published fingerprint at http://cantonbecker.com
 
 If you get warnings like "This key is not certified, there is no indication that
 the key belongs to the owner" do not worry, this is normal.
+
 
 
 *** DONATIONS ***
